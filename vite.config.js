@@ -1,7 +1,8 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 
-// feur
+// feur!
+```coubeh
 
 export default defineConfig({
 	plugins: [sveltekit()]
