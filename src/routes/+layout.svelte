@@ -1,6 +1,7 @@
 <script>
 	import { base } from '$app/paths';
-
+	import './style.css';
+	
 	const { children } = $props();
 </script>
 
