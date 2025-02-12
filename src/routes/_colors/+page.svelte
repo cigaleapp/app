@@ -21,7 +21,7 @@
   {@render swatch("fg-warning", "dark")}
   {@render swatch("bg-error", "dark")}
   {@render swatch("fg-error", "light")}
-  {@render swatch("bg-success", "light")}
+  {@render swatch("bg-success", "dark")}
   {@render swatch("fg-success", "light")}
   {@render swatch("bg-neutral", "dark")}
   {@render swatch("fg-neutral", "light")}
