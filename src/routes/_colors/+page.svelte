@@ -58,7 +58,7 @@
     }
 
     .color-square:is(:hover, :focus-visible) {
-        border-color: black;
+        border-color: white;
     }
 
     .color-square.dark-text {
@@ -66,6 +66,6 @@
     }
 
     .color-square.dark-text:is(:hover, :focus-visible) {
-        border-color: white;
+        border-color: black;
     }
 </style>
