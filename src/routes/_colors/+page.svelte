@@ -2,10 +2,12 @@
 
 {#snippet swatch(name, textcolor = "light")}
     <div 
+        role="button"
         class="color-square" 
         class:dark-text={textcolor === "dark"} 
         style="background-color: var(--{name});"
         onclick={async () => { await navigator.clipboard.writeText(`var(--${name})`) }}
+        title="Copier var(--{name})"
     >
         --{name}
     </div>
@@ -51,6 +53,12 @@
         text-align: center;
         font-size: 14px;
         color: white;
+        cursor: pointer;
+        border: 3px solid transparent;
+    }
+
+    .color-square:is(:hover, :focus-visible) {
+        border-color: black;
     }
 
     .color-square.dark-text {
