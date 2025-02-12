@@ -23,7 +23,7 @@ develop:
 
   environment:
     name: review/$CI_COMMIT_REF_SLUG
-    url: https://$CI_PROJECT_NAMESPACE.pages.inpt.fr/-/$CI_PROJECT_NAME/-/jobs/$CI_JOB_ID/artifacts/public
+    url: https://$CI_PROJECT_NAMESPACE.pages.inpt.fr/-/$CI_PROJECT_NAME/-/jobs/$CI_JOB_ID/artifacts/public/index.html
 
   script:
     - ENVIRONMENT_URL=$CI_ENVIRONMENT_URL npm run build

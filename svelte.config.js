@@ -12,7 +12,8 @@ const config = {
 		}),
 		paths: {
 			base: process.env.ENVIRONMENT_URL ? new URL(process.env.ENVIRONMENT_URL).pathname : ''
-		}
+		},
+		router: 'hash'
 	},
 
 	preprocess: [mdsvex()],
