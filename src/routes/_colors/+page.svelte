@@ -64,4 +64,8 @@
     .color-square.dark-text {
         color: black;
     }
+
+    .color-square.dark-text:is(:hover, :focus-visible) {
+        border-color: white;
+    }
 </style>
