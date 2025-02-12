@@ -10,10 +10,12 @@ const config = {
 			strict: false,
 			fallback: '404.html'
 		}),
+		router: {
+			type: 'hash'
+		},
 		paths: {
 			base: process.env.ENVIRONMENT_URL ? new URL(process.env.ENVIRONMENT_URL).pathname : ''
 		},
-		router: 'hash'
 	},
 
 	preprocess: [mdsvex()],
