@@ -12,4 +12,6 @@
 	--fg-success: #006600;
 	--bg-neutral: #ffffff;
 	--fg-neutral: #000000;
+	--corner-radius: 7px;
+	--border-thickness: 1px;
 }
