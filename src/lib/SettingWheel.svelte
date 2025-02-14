@@ -1,5 +1,5 @@
 <script>
-	import Icon from '@iconify/svelte';
+	import Icon from '~icons/ph/gear-light';
 	let isActive = false;
 	let isDivActive = false;
 
@@ -11,7 +11,7 @@
 
 <div class:isDivActive class="container" aria-pressed={isDivActive}>
 	<button class:isActive onclick={handleClick} aria-pressed={isActive} type="button">
-		<Icon class="icon" icon="ph:gear-light" />
+		<Icon class="icon" />
 	</button>
 </div>
 
