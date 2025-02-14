@@ -58,6 +58,16 @@
 		transition: transform 0.3s;
 	}
 
+	button:hover[aria-checked='true'] {
+		box-shadow: 0 0px 5px #25c8bf;
+		border-radius: 1.5em;
+	}
+
+	button:hover {
+		box-shadow: 0 0px 5px #2c004b;
+		border-radius: 1.5em;
+	}
+
 	button:focus[aria-checked='true'] {
 		box-shadow: 0 0px 8px #25c8bf;
 		border-radius: 1.5em;
