@@ -45,7 +45,9 @@
 	},
 	"dependencies": {
 		"@tensorflow-models/mobilenet": "^2.1.1",
-		"@tensorflow/tfjs": "^4.22.0"
+		"@tensorflow/tfjs": "^4.22.0",
+		"jimp": "^1.6.0",
+		"onnxruntime-web": "^1.20.1"
 	},
 	"volta": {
 		"node": "22.13.1",
