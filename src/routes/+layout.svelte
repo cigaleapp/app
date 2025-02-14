@@ -1,7 +1,13 @@
 <script>
+	import { base } from '$app/paths';
 	import './style.css';
+
 	const { children } = $props();
 </script>
+
+<svelte:head>
+	<base href={base} />
+</svelte:head>
 
 {@render children?.()}
 
@@ -9,5 +15,9 @@
 	:root {
 		--corner-radius: 7px;
 		--border-thickness: 1px;
+	}
+
+	:global(*) {
+		font-family: 'Host Grotesk', sans-serif;
 	}
 </style>
