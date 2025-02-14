@@ -9,5 +9,8 @@ export default defineConfig({
 			defaultClass: 'icon'
 		}),
 		sveltekit()
-	]
+	],
+	optimizeDeps: {
+		exclude: ['@electric-sql/pglite']
+	}
 });

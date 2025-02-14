@@ -1,0 +1,10 @@
+[
+	{
+		"sql": [
+			"CREATE TABLE \"settings\" (\n\t\"updatedAt\" timestamp,\n\t\"createdAt\" timestamp DEFAULT now() NOT NULL,\n\t\"deletedAt\" timestamp,\n\t\"id\" integer\n);\n"
+		],
+		"bps": true,
+		"folderMillis": 1739558531046,
+		"hash": "410a3ac593c0bdf201cd6519d0f0eced07165b9220a829f46f6e442b7d4ef81b"
+	}
+]
